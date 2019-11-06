@@ -1,6 +1,7 @@
 package com.mycompany.app;
 
 import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
@@ -17,4 +18,11 @@ public class AppTest
     {
         assertTrue( true );
     }
+    @Test
+    public void testApp_f()
+    {
+	App app = new App();
+        assertEquals( 1, app.f() );
+    }
+
 }

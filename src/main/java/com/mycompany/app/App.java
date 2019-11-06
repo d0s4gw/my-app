@@ -6,6 +6,9 @@ package com.mycompany.app;
  */
 public class App 
 {
+    public int f() {
+	    return 1;
+    }
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
